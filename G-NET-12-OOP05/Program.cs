@@ -227,6 +227,66 @@ namespace G_NET_12_OOP05
             //        Dev - Testing
             //        QA - Testing
             #endregion
+
+            #region Part 02 : Practical (Extending the Movie Ticket Booking System
+
+            //Cinema cinema = new Cinema();
+
+            //cinema.Open();
+
+            //StandardTicket t1 = new StandardTicket
+            //{
+            //    MovieName = "Inception",
+            //    Seat = "A5",
+            //    Price = 80
+            //};
+
+            //VIPTicket t2 = new VIPTicket
+            //{
+            //    MovieName = "Avengers",
+            //    LoungeAccess = true,
+            //    Fee = 50,
+            //    Price = 200
+            //};
+
+            //IMAXTicket t3 = new IMAXTicket
+            //{
+            //    MovieName = "Dune",
+            //    Is3D = true,
+            //    Price = 130
+            //};
+
+            //t1.Book();
+            //t2.Book();
+            //t3.Book();
+
+            //cinema.AddTicket(t1);
+            //cinema.AddTicket(t2);
+            //cinema.AddTicket(t3);
+
+            //cinema.PrintAllTickets();
+
+            //Console.WriteLine("\n--- Clone Test ---");
+
+            //VIPTicket clone = (VIPTicket)t2.Clone();
+            //clone.MovieName = "Interstellar";
+
+            //Console.Write("Original : ");
+            //t2.Print();
+
+            //Console.Write("Clone    : ");
+            //clone.Print();
+
+            //Console.WriteLine("\n--- After Cancellation ---");
+
+            //t1.Cancel();
+            //t1.Print();
+
+            //BookingHelper.PrintAll(new IPrintable[] { t1, t2, t3 });
+
+            //cinema.Close();
         }
+            #endregion
     }
-}
+    }
+
